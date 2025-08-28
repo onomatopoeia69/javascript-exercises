@@ -1,6 +1,7 @@
 const sumAll = function(start, end) {
 
    let arr = [];
+   
       let NewStart = start < end ? start : end;
       let NewEnd = end > start ? end : start;
       
