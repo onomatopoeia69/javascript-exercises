@@ -8,6 +8,7 @@ const removeFromArray = function(arr,...array) {
             if( array.includes(arr[i]))
             {
                 continue;
+                
             }else{
                 newArr.push(arr[i]);   
             }
